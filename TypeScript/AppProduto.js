@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var Produto_1 = require("./Produto");
+var p1, p2;
+p1 = new Produto_1.Produto(1, "Mouse", "Mouse com Luz", 100, 10, "www.e-commerce.com/fotomouse.jpg");
+p2 = new Produto_1.Produto(2, "Teclado", "Teclado com Luz", 200, 10, "www.e-commerce.com/fototeclado.jpg");
+console.log(p1.getInfo());
+console.log(p2.getInfo());
+console.log(p1);
+console.log(p2);

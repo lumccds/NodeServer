@@ -5,6 +5,7 @@ export class Carro{
     private ano:    number;
     private ligado: boolean;
 
+
 public getPlaca():string{
     return this.placa;
 }

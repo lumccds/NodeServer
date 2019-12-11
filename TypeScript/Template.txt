@@ -1,0 +1,26 @@
+Template de Classes em TypeScript
+
+export class [NOME DA CLASSE] {
+   // LISTA DE ATRIBUTOS
+   private [NOME DO ATRIBUTO]: [TIPO];
+   ...
+
+   (opcional)
+   public constructor([LISTA DE PARAMETROS]) {    
+       // CODIGO DAS ATRIBUIÇÕES
+       this.[NOME DO ATRIBUTO] = [NOME DO PARAMETRO];
+       ...
+   }
+
+   (métodos)
+
+   (padrão 1 - getters e setters)
+   public get[NOME DO ATRIBUTO](): [TIPO DO ATRIBUTO]{
+       return this.[NOME DO ATRIBUTO];
+   }
+
+   public set[NOME DO ATRIBUTO]( [NOME DO PARAMETRO] : [TIPO DO PARAMETRO]): void {
+       this.[NOME DO ATRIBUTO] = [NOME DO PARAMETRO];
+   }
+
+}
